@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+<link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+     <h1>دسته بندی</h1>
+     <div class="all">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <h3>مراقبتی پوست</h3>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/zoghal.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/tala.jfif" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </div>
+
+         <div class="all">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+             <h3>مراقبت مو</h3>
+            <div class="swiper-slide"><img src="../img/بیواکوا copy.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/اسپری-مو-روغن-آرگان-پنتن.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/اسپری-مو-روغن-آرگان-پنتن.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../img/mask.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                '@0.00': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '@0.75': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                '@1.00': {
+                    slidesPerView: 6,
+                    spaceBetween: 40,
+                },
+                '@1.50': {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

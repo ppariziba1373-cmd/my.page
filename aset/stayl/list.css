@@ -1,0 +1,29 @@
+/* لیست های منو بار*/
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+font-size: 20px;
+}
+
+.menubar ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media screen and (max-width: 640px) {
+    .menubar {
+        margin: 10px;
+    
+    }
+    .menubar ul {
+        flex-direction:row;
+        gap: 10px;
+        font-size: 10px;
+        padding: 0 10px;
+    }
+.menubar li {border-bottom: 2px solid rgb(152, 136, 136);
+border-radius: 10%;}
+}

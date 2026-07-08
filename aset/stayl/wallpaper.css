@@ -1,0 +1,33 @@
+.wallpaper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+
+}
+
+.wallpaper img {
+    margin-top: 30px;
+    height: 280px;
+    width: 490px;
+    border-radius: 30px;
+   box-shadow: 3px 4px 1px 2px rgba(124, 119, 119, 0.842);
+}
+
+.wallpaper img :hover{transform: rotate(360deg);
+transition: 2s;}
+
+@media screen and (max-width: 640px) {
+    .wallpaper img {
+        height: 300px;
+        width: 480px;
+        box-shadow: 3px 4px 10px 2px rgba(124, 119, 119, 0.842);
+  }
+
+    .wallpaper {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,46 @@
+.fother {
+    background-color: rgba(23, 15, 184, 0.911);
+    color: #ffffff;
+    font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.radif {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.598);
+}
+
+.fother img{
+    height: 280px;
+    width: 320px;
+    margin: -60px 50px;
+}
+.radif1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+       margin-bottom: 20px;
+
+}
+
+.radif2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.radif3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+span{margin-right: 50px;}
+
+@media screen and (max-width: 640px) {
+.fother{
+    display: flex;
+}
+}

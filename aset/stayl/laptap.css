@@ -1,0 +1,18 @@
+.laptap{
+ display: flex;
+justify-content: center;
+gap: 30px;
+margin: 60px 0;
+}
+
+.laptap img{
+    height: 200px;
+    width: 180px;
+}
+@media screen and (max-width: 640px) {
+    
+    .laptap img {
+    height: 100px;
+    width: 80px;
+}
+}

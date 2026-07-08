@@ -1,0 +1,34 @@
+
+
+.stori{margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.stori img{border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border: 2px solid red;
+    padding: 3px;
+
+}
+/* ریسپانسیو */
+@media screen and (max-width: 640px) {
+    .stori {
+        gap: 20px;
+        padding: 0 10px;
+        margin-top: 30px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .stori img {
+        height: 80px;
+        width: 80px;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+}

@@ -1,0 +1,37 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+.mahsol1{  width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;   
+    overflow-y: hidden;}
+h3{margin:10px 20px;
+  font-size:20px;
+display: flex;
+align-items: center;
+}
+.mahsol1 img{margin-top: 12px;
+  height: 170px;
+  width: 150px;
+  border-radius: 10px;
+}
+.a{
+  text-align: center;
+  font-size: small;
+}
+#a{margin-right: 400px;}
+.cuntener2{
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 640px){
+#a{
+margin-right: 800px;
+}
+.mahsol1 img{
+    height: 140px;
+  width: 130px;
+}
+}
