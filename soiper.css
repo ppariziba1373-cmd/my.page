@@ -1,0 +1,59 @@
+/* سویپر */
+
+.swiper {
+  margin-top: 29px;
+  width: 1440px;
+  height: 300px;
+}
+
+.swiper .swiper-slide .swiper-img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  object-fit: fill;
+  margin: 0px 40px;
+}
+
+/* ریسپانسیو*/
+@media screen and (max-width: 640px) {
+  .swiper {
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+  }
+
+  .swiper .swiper-slide .swiper-img {
+    object-fit: cover;
+  }
+}
+
+
+
+/* swiper2 */
+.nam{
+  margin-right: 50px;
+  font-size: 30px;
+}
+.laptap1{
+  background-color: red;
+}
+      .swiper2 {
+        width:100px;
+        height: 400px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+      }
